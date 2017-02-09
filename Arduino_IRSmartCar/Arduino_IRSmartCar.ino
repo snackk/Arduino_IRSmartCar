@@ -24,16 +24,16 @@ void loop() {
 		Serial.println(results.value, HEX);
 		switch (results.value) {
 		case 0xFD8877:
-			smartcar.handleCar("F\n");
+			smartcar.handleCar("F");
 			break;
 		case 0xFD9867:
-			smartcar.handleCar("B\n");
+			smartcar.handleCar("B");
 			break;
 		case 0xFD28D7:
-			smartcar.handleCar("L\n");
+			smartcar.handleCar("L");
 			break;
 		case 0xFD6897:
-			smartcar.handleCar("R\n");
+			smartcar.handleCar("R");
 			break;
 		}
 		irrecv.resume(); // Receive the next value
