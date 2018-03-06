@@ -1,4 +1,6 @@
-# Arduino_IRSmartCar
+# Arduino IRSmartCar
+
+## Overview
 
 Infrared interface using 4WD Smart Car library for the Arduino.
 
@@ -8,4 +10,4 @@ In the following schematic i used a simple IR connected to arduino.
 
 To use the code you should first install the SmartCar library, that can be found here https://github.com/snackk/Arduino_SmartCar
 
-Written by Diogo Santos.
+  Written by [@snackk](https://github.com/snackk)
